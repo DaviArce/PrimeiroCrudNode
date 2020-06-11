@@ -1,5 +1,5 @@
  const express = require('express');
- const crud = require('./routes.js');
+ const crud = require('./routes/routes.js');
  const app = express();
  
  app.use(express.json());

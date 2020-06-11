@@ -28,11 +28,11 @@ module.exports = {
                     
                     if(err != null){
                         //res.status(400,"Deu erro");
-                        var sda = JSON.stringify(err);
+                        let sda = JSON.stringify(err);
                         res.send(sda);
                             
                      }
-                    var a = JSON.stringify(result); 
+                    let a = JSON.stringify(result); 
                         res.send(a);
                     
                 }
@@ -73,7 +73,7 @@ module.exports = {
         
         // const idade = req.body.idade;
         // const descricao = req.body.descricao;
-        var id = Math.floor(Math.random()*100);
+        let id = Math.floor(Math.random()*100);
         
         console.log(email,idade,descricao,id);
 
